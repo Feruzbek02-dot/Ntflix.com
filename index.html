@@ -1,0 +1,267 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Netflix Clone
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white">
+  <!-- Navbar -->
+  <nav class="bg-gray-800 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+     <img alt="Netflix logo" class="h-8" height="50" src="https://storage.googleapis.com/a1aa/image/muTiGJCPzSrTAdKZEWlsLhCaVieBV4mOKhVIFwfejtMireMPB.jpg" width="100"/>
+     <a class="text-white hover:text-gray-400" href="#">
+      Home
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      TV Shows
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      Movies
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      New &amp; Popular
+     </a>
+     <a class="text-white hover:text-gray-400" href="#">
+      My List
+     </a>
+    </div>
+    <div class="flex items-center space-x-4">
+     <i class="fas fa-search text-white">
+     </i>
+     <i class="fas fa-bell text-white">
+     </i>
+     <img alt="User profile picture" class="h-8 w-8 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/2zTOy8GZTjZcIBENNZizNDUJr4OlKhSoJFQWgbKSee5iVPzTA.jpg" width="50"/>
+    </div>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080');">
+   <div class="absolute inset-0 bg-black opacity-50">
+   </div>
+   <div class="container mx-auto h-full flex flex-col justify-center items-start relative z-10 p-4">
+    <h1 class="text-5xl font-bold mb-4">
+     Featured Movie Title
+    </h1>
+    <p class="text-lg mb-6">
+     A brief description of the featured movie goes here. It should be engaging and give a quick overview of the plot.
+    </p>
+    <div class="flex space-x-4">
+     <button class="bg-white text-black px-6 py-3 rounded-md flex items-center space-x-2">
+      <i class="fas fa-play">
+      </i>
+      <span>
+       Play
+      </span>
+     </button>
+     <button class="bg-gray-700 text-white px-6 py-3 rounded-md flex items-center space-x-2">
+      <i class="fas fa-info-circle">
+      </i>
+      <span>
+       More Info
+      </span>
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Movie Sections -->
+  <section class="container mx-auto py-8">
+   <h2 class="text-2xl font-bold mb-4">
+    Trending Now
+   </h2>
+   <div class="grid grid-cols-5 gap-4">
+    <div class="relative">
+     <img alt="Movie poster 1" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/k9J8KeeSddokTUmFqKWCIxkMGqpcoB4gsNczurJTTDHyVPzTA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 2" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/rmlfQypEY8XvG6eYjWqhUnzpbZYtpkMXLRepzQ98LF0XreMPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 3" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/JtWQOPsfMTxeakETQeUfc0F7oenuY3lWe6SiLbHEaBmFX1z8E.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 4" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/gLgLIUBpaJoVN9NXCGT5uMyyHJYPE4Gl1iPGm1fCSxfoVPzTA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 5" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/ZYk3E1EbbB6PLpxZOOoVmUSSKJQ6DyslXtAPSZfrArF1qn5JA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="container mx-auto py-8">
+   <h2 class="text-2xl font-bold mb-4">
+    Top Picks for You
+   </h2>
+   <div class="grid grid-cols-5 gap-4">
+    <div class="relative">
+     <img alt="Movie poster 6" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/KfOa3imxLuWSfkG222spXNX92kKEfrAJd2oie36osLcxW9MPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 7" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/2V6UFUqCq1b2AJTugVk3p7snMwUeffH3Sr8yUXNhzSmOreMPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 8" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/vG9uTb5MmnZ1IJ2d10SkvoAgAYx7EhTrfKmXTO1N5lfdVPzTA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 9" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/Zw9cfSSCrxT6b6aca0duIr8jUmJtdk6nggtsXlMYWffcreMPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 10" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/YW1lk3Jzzd6RKdAcmCcSLQEkqe2PAdeofupeTyjwwhpMW9MPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="container mx-auto py-8">
+   <h2 class="text-2xl font-bold mb-4">
+    Recently Added
+   </h2>
+   <div class="grid grid-cols-5 gap-4">
+    <div class="relative">
+     <img alt="Movie poster 11" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/ZwsbYnCwPL7NP5blecEf3GFGBpcX9w0kSQTfWZwj6C1fV9MPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 12" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/CsbH6bfd6DVBTyFBInFZpmO4nMAeP7UCMQe4v5avGWWAreMPB.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 13" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/sMrS9HLcOT6GMpwlBYJcIap3M5a9es9RkTFcaeoknJVbVPzTA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 14" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/yVQOqilgMianNJv0aHVpUnLWcen27VLp8YifUW0ytmMvVPzTA.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+    <div class="relative">
+     <img alt="Movie poster 15" class="w-full h-full object-cover rounded-md" height="450" src="https://storage.googleapis.com/a1aa/image/ZhfQeDsnjVoPwELHOwtc8fUqZ5PvMFC1KTeM4eLb0bM0s6ZeE.jpg" width="300"/>
+     <div class="absolute inset-0 bg-black opacity-0 hover:opacity-75 flex items-center justify-center transition-opacity">
+      <button class="bg-white text-black px-4 py-2 rounded-md">
+       Play
+      </button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-8">
+   <div class="container mx-auto text-center">
+    <div class="flex justify-center space-x-4 mb-4">
+     <a class="text-gray-400 hover:text-white" href="#">
+      Audio and Subtitles
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Help Center
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Gift Cards
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Media Center
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Investor Relations
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Jobs
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Terms of Use
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Privacy
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Legal Notices
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Cookie Preferences
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Corporate Information
+     </a>
+     <a class="text-gray-400 hover:text-white" href="#">
+      Contact Us
+     </a>
+    </div>
+    <p class="text-gray-400">
+     © 2023 Netflix Clone. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
